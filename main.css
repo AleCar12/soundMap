@@ -3,33 +3,19 @@ body {
     display: block;
 }
 
-#day #night {
-    height: 100vh;
-}
-
-img {
-    height: 100vh;
-    width: 100vh;
-}
-
 #day {
     display: none;
 }
 
 button {
-    /* width: 50px; */
+    width: 70px;
     position: absolute;
     top: 30px;
-    left: 100px;
+    left: 70px;
     z-index: 10;
 }
 
-#mapD {
-    height: 100vh;
-    z-index: 10;
-}
-
-#mapN {
+#mapD, #mapN {
     height: 100vh;
     z-index: 10;
 }
