@@ -16,8 +16,8 @@ img {
     display: none;
 }
 
-input {
-    width: 50px;
+button {
+    /* width: 50px; */
     position: absolute;
     top: 30px;
     left: 100px;
