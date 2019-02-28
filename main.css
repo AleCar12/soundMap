@@ -7,8 +7,8 @@ body {
     display: none;
 }
 
-button {
-    width: 70px;
+#bt1, #bt2 {
+    width: 100px;
     position: absolute;
     top: 30px;
     left: 70px;
@@ -18,4 +18,13 @@ button {
 #mapD, #mapN {
     height: 100vh;
     z-index: 10;
+}
+
+img {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.leaflet-popup-content-wrapper {
+    width: 640px;
 }
