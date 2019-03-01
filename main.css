@@ -21,7 +21,7 @@ body {
 }
 
 img {
-    max-width: 600px;
+    width: 600px;
     max-height: 400px;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 .audio {
-    margin-top: 150px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     width: 595px;

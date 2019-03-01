@@ -25,7 +25,7 @@ function showDiv1() {
     }).addTo(mymap);
     
     // marker
-    let pup = '<div class="popUp"> <h1>Galleria</h1> <img src="img/termini.jpg" id="imgPopUp"> <br> <div class="audio"> <div id="waveform"></div> <button type="button" class="btn btn-success">Play</button> </div>';
+    let pup = '<div class="popUp"> <h1>Galleria</h1> <img src="img/terminiD.jpg" id="imgPopUp"> <br> <div class="audio"> <div id="waveform"></div> <button type="button" class="btn btn-success">Play</button> </div>';
 
     L.marker([x, y]).addTo(mymap)
     .bindPopup(pup);
